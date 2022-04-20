@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+:root {
+  --primary: #F4FCD9;
+  --secondary: #C5D8A4;
+  --accent: #534340;
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #BB9981;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.1em;
+}
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+  width: 8px;
+
+}
+
+::-webkit-scrollbar-track {
+  background: #BB9981;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+}
+
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: var(--accent);
+  padding: 20px;
+  border-radius: 10px;
+  color: var(--primary);
+}
+
+form input,
+form label {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 38px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--secondary); /*Muda a cor da borda quando clica*/
+                              
+}
+
+form button {
+  border: none;
+  border-radius: 10px;
+  background: var(--primary);
+  color: var(--accent);
+  font-size: 16px;
+  font-weight: 700;
+  height: 40px;
+  cursor: pointer;
+  margin: 30px auto;
+  /* o auto, deixa o button ao centro*/
+  width: 30%;
+  display: block;
+}
+
+form button:hover {
+  background: var(--secondary);
+}
+
+p {
+  font-size: 15px;
+}
+
+.tabelas {
+  display: flex;
+}
+
+.tabela1 {
+  width: 50%;
+}
+
+.tabela2 {
+  width: 50%;
+}
+
+.paragrafo-resultado {
+  border-radius: 5px;
+  background: #4E944F;
+  color: #fff;
+  text-align: center;
+}
+
+.bad {
+  border-radius: 5px;
+  background: #B20600;
+  color: #fff;
+
+}
+
